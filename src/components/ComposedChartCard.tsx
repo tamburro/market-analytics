@@ -34,7 +34,7 @@ export default function ComposedChartCard({
   barColor = '#0ecb81',
 }: Props) {
   return (
-    <div className="bg-card border border-border rounded-lg p-4">
+    <div className="bg-card border border-border rounded-xl p-4">
       <h3 className="text-sm font-semibold text-foreground mb-3">{title}</h3>
       <div className="h-[240px]">
         <ResponsiveContainer width="100%" height="100%">

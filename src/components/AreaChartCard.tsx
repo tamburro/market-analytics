@@ -14,7 +14,7 @@ export default function AreaChartCard({ title, data, color = '#0ecb81', unit = '
   const formatter = formatValue || ((v: number) => `${v.toFixed(2)}${unit}`);
 
   return (
-    <div className="bg-card border border-border rounded-lg p-4">
+    <div className="bg-card border border-border rounded-xl p-4">
       <h3 className="text-sm font-semibold text-foreground mb-3">{title}</h3>
       <div className="h-[200px]">
         <ResponsiveContainer width="100%" height="100%">
